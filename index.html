@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Electron URL TEST</title>
+    <!-- https://electronjs.org/docs/tutorial/security#csp-meta-tag -->
+    <meta http-equiv="Content-Security-Policy" content="script-src 'self' 'unsafe-inline';" />
+</head>
+
+<body>
+    <div>
+        <B> URL </B>
+        <br/> 가로 : <input type="text" id="urlWidth" value="750" style="width:200px;">
+        <br/> 세로 : <input type="text" id="urlHeight" value="450" style="width:200px;">
+        <br/> URL : <input type="text" id="urlInput" value="http://iken.kolon.com" style="width:300px;">
+        <br/><button class="urlBtn" id="urlBtn" type="button">접속</button>
+    </div>
+    <script src="src/utils.js"></script>
+</body>
+
+</html>

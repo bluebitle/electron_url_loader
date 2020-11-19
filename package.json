@@ -1,0 +1,19 @@
+{
+    "name": "electron_url_loader",
+    "version": "1.0.0",
+    "description": "",
+    "main": "main.js",
+    "scripts": {
+        "start": "electron .",
+        "package-build": "electron-builder --win --ia32"
+    },
+    "author": "daehyun_ryu",
+    "license": "KOLON, ltd.",
+    "devDependencies": {
+        "electron": "6.1.5",
+        "electron-builder": "21.2.0"
+    },
+    "dependencies": {
+        "update-electron-app": "^2.0.1"
+    }
+}
